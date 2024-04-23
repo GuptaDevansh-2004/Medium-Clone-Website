@@ -64,3 +64,15 @@ window.addEventListener("scroll", (event) => {
     document.querySelector("header").style = `background-color: #FFC017; transition: linear; transition-duration: 0.29s;`;
   }
 });
+
+// for responsive design of navigation bar
+
+window.addEventListener("scroll", (event) => {
+  if (screen.width < 710) {
+    if (window.scrollY > 500) {
+      document.querySelector(".search").style = `background-color: white;`;
+    } else {
+      document.querySelector(".search").style = `background-color: #FFC017`;
+    }
+  }
+});
