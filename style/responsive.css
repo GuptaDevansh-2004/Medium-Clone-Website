@@ -1,0 +1,360 @@
+@media screen and (max-width: 710px) {
+
+  .navbar > .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .navbar > .container > a {
+    height: 100%;
+    width: 25%;
+  }
+
+  .navbar > .container > a > img {
+    height: 42%;
+    width: 100%;
+  }
+
+  .container > .search {
+    background: #ffc017;
+    width: 10%;
+    height: 60%;
+    border: none;
+  }
+
+  .container > .search > label > img {
+    left: 0rem;
+  }
+
+  .container > .search > #search-bar {
+    display: none;
+  }
+
+  .nav-options {
+    display: none;
+  }
+
+  .upper-left {
+    width: 70%;
+    margin-left: 4.5%;
+  }
+
+  .upper-left > h1 {
+    font-size: 4.2rem;
+  }
+
+  .upper-left > h3 {
+    font-size: 1.2rem;
+  }
+
+  .upper-left > a > button {
+    font-size: 1.2rem;
+  }
+
+  .upper-right {
+    display: none;
+  }
+
+  #heading {
+    margin-left: 4%;
+  }
+
+  #heading > h4 {
+    width: 80%;
+  }
+
+  #heading > img {
+    width: 4%;
+  }
+
+  #content {
+    left: 2rem;
+  }
+
+  #lower-in {
+    flex-direction: column-reverse;
+    position: static;
+    margin-top: 5%;
+  }
+
+  #lower-in > .lower-right {
+    position: static;
+    width: 100%;
+    height: 40vh;
+  }
+
+  #head-lines {
+    position: static;
+    width: 100%;
+  }
+
+  #head-lines > h3 {
+    width: 100%;
+    margin-left: 6%;
+    font-size: 0.9rem;
+  }
+
+  #head-lines > .topics {
+    width: 100%;
+    margin-left: 6%;
+    max-width: 90%;
+  }
+
+  #head-lines > .topics > a {
+    font-size: 0.65rem;
+  }
+
+  #head-lines > #extra {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #head-lines > #extra > a {
+    font-size: 0.65rem;
+    margin-left: 6%;
+  }
+
+  #head-lines > .links {
+    display: none;
+  }
+
+  .lower-left {
+    width: 90%;
+    position: static;
+    margin-left: 6%;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+
+  .navbar > .container > a {
+    height: 100%;
+    width: 25%;
+  }
+
+  .navbar > .container > a > img {
+    height: 38%;
+    width: 100%;
+  }
+
+  .upper-left {
+    width: 70%;
+    margin-left: 4.5%;
+  }
+
+  .upper-left > h1 {
+    font-size: 3.8rem;
+  }
+
+  .upper-left > h3 {
+    font-size: 1.1rem;
+  }
+
+  .upper-left > a > button {
+    font-size: 1.1rem;
+  }
+
+  #heading > img {
+    width: 5%;
+  }
+
+  .news {
+    height: 9.6rem;
+    margin: 0 0 3.1rem 0;
+  }
+
+  .news > .left-col {
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  .left-col > a > #head > span {
+    font-size: 0.65rem;
+  }
+
+  .left-col > a > #head > img {
+    height: 85%;
+    width: 6.2%;
+  }
+
+  .left-col > a > #up-bod {
+    font-size: 1.2rem;
+  }
+
+  .left-col > a > #down-bod {
+    font-size: 0.82rem;
+  }
+
+  .left-col > #foot {
+    font-size: 0.6rem;
+  }
+
+  .left-col > #foot > a {
+    font-size: 0.6rem;
+  }
+
+  .news > .image {
+    display: inline-block;
+    height: 100%;
+    width: 42%;
+  }
+
+  .news > .image > a > img {
+    height: 80%;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+
+  .navbar > .container > a {
+    height: 100%;
+    width: 33%;
+  }
+
+  .navbar > .container > a > img {
+    height: 38%;
+    width: 100%;
+  }
+
+  .upper-left {
+    width: 85%;
+    margin-left: 4.5%;
+  }
+
+  .upper-left > h1 {
+    font-size: 3.5rem;
+  }
+
+  .upper-left > h3 {
+    font-size: 1rem;
+  }
+
+  .upper-left > a > button {
+    font-size: 1rem;
+  }
+
+  #heading > img {
+    width: 6%;
+  }
+
+  .news {
+    height: 9.5rem;
+    margin: 0 0 3rem 0;
+  }
+
+  .news > .left-col {
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  .left-col > a > #head > span {
+    font-size: 0.6rem;
+  }
+
+  .left-col > a > #head > img {
+    height: 80%;
+    width: 6.2%;
+  }
+
+  .left-col > a > #up-bod {
+    font-size: 1.1rem;
+  }
+
+  .left-col > a > #down-bod {
+    font-size: 0.82rem;
+  }
+
+  .left-col > #foot {
+    font-size: 0.5rem;
+  }
+
+  .left-col > #foot > a {
+    font-size: 0.5rem;
+  }
+
+  .news > .image {
+    display: inline-block;
+    height: 100%;
+    width: 42%;
+  }
+
+  .news > .image > a > img {
+    height: 80%;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 388px) {
+
+  #heading > img {
+    width: 6.4%;
+  }
+
+  #heading > h4 {
+    font-size: 0.9rem;
+  }
+
+  .lower-upper > #heading > #content {
+    left: 0.1rem;
+  }
+
+  .news {
+    height: 9rem;
+    margin: 0 0 2.3rem 0;
+  }
+
+  .news > .left-col {
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    margin-right: 0.8rem;
+  }
+
+  .left-col > a > #head > span {
+    font-size: 0.5rem;
+  }
+
+  .left-col > a > #head > img {
+    height: 60%;
+    width: 6.2%;
+  }
+
+  .left-col > a > #up-bod {
+    font-size: 1.05rem;
+  }
+
+  .left-col > a > #down-bod {
+    font-size: 0.63rem;
+  }
+
+  .left-col > #foot {
+    font-size: 0.4rem;
+  }
+
+  .left-col > #foot > a {
+    font-size: 0.4rem;
+  }
+
+  .news > .image {
+    display: inline-block;
+    height: 100%;
+    width: 42%;
+  }
+
+  .news > .image > a > img {
+    height: 70%;
+    width: 100%;
+  }
+
+}
