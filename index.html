@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medium-Clone</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="container">
+          <a href="./index.html"><img src="./image/Medium-logo.png" alt="medium logo"></img></a>
+          <div class="search">
+            <label for="search-bar"><img src="./image/search.png" alt="search"></img></label>
+            <input id="search-bar" placeholder="Search" type="text"></input>
+          </div>
+        </div>
+        <ul class="nav-options">
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Memebership</a></li>
+            <li><a href="#">Write</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#"><button>Get started</button></a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="main-body">
+        <div class="upper-section">
+          <div class="upper-left">
+            <h1>Stay curious.</h1>
+            <h3>Discover stories, thinking, and expertise from writers on any topic.</h3>
+            <a href="#"><button class="reader">Start reading</button></a>
+          </div>
+          <div class="upper-right">
+            <img src="./image/upperright.png" alt="upper-right-section">
+          </div>
+        </div>
+        <div class="lower-section">
+          <div class="lower-upper">
+            <div id="heading">
+              <img src="./image/lower-symbol.png" alt="lower-symbol"></img>
+              <h4>Trending on Medium</h4>
+            </div>
+            <div id="content"></div>
+          </div>
+          <div class="lower-lower">
+           <div id="lower-in">
+             <div class="lower-left"></div>
+             <div class="lower-right">
+              <div id="head-lines">
+                <h3>Discover more of what matters to you</h3>
+                <div class="topics">
+                 <a href="#">Programming</a>
+                 <a href="#">Data Science</a>
+                 <a href="#">Technology</a>
+                 <a href="#">Self Improvement</a>
+                 <a href="#">Writing</a>
+                 <a href="#">Relationships</a>
+                 <a href="#">Machine Learning</a>
+                 <a href="#">Productivity</a>
+                 <a href="#">Politics</a>
+                </div>
+                <div id="extra"><a href="#">See more topics</a></div>
+                <div class="links">
+                  <a href="#">Help</a>
+                  <a href="#">Status</a>
+                  <a href="#">About</a>
+                  <a href="#">Careers</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Privacy</a>
+                  <a href="#">Terms</a>
+                  <a href="#">Text to Speech</a>
+                  <a href="#">Teams</a>
+                </div>                
+              </div>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./store/storage.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
